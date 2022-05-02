@@ -1,0 +1,73 @@
+# Reading pref.tcl
+# do Lab5_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/2ndInstall/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/randy/Documents/School/EECS3201/Lab5/Part1 {C:/Users/randy/Documents/School/EECS3201/Lab5/Part1/test1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:30:53 on Nov 26,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/randy/Documents/School/EECS3201/Lab5/Part1" C:/Users/randy/Documents/School/EECS3201/Lab5/Part1/test1.v 
+# -- Compiling module test1
+# 
+# Top level modules:
+# 	test1
+# End time: 18:30:53 on Nov 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part1/test1.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:31:03 on Nov 26,2021
+# vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part1/test1.v 
+# -- Compiling module test1
+# 
+# Top level modules:
+# 	test1
+# End time: 18:31:03 on Nov 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part1/test1_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:31:03 on Nov 26,2021
+# vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part1/test1_tb.v 
+# -- Compiling module test1_tb
+# 
+# Top level modules:
+# 	test1_tb
+# End time: 18:31:03 on Nov 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.test1_tb
+# vsim work.test1_tb 
+# Start time: 18:31:04 on Nov 26,2021
+# Loading work.test1_tb
+# Loading work.test1
+add wave sim:/test1_tb/*
+run
+# All outputs are zero
+vlog -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part1/test1_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:33:11 on Nov 26,2021
+# vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part1/test1_tb.v 
+# -- Compiling module test1_tb
+# 
+# Top level modules:
+# 	test1_tb
+# End time: 18:33:11 on Nov 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.test1_tb
+# End time: 18:33:16 on Nov 26,2021, Elapsed time: 0:02:12
+# Errors: 0, Warnings: 0
+# vsim work.test1_tb 
+# Start time: 18:33:16 on Nov 26,2021
+# Loading work.test1_tb
+# Loading work.test1
+add wave sim:/test1_tb/*
+run
+# All outputs are zero
+# End time: 18:34:04 on Nov 26,2021, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 0

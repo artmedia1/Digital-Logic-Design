@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/randy/Documents/School/EECS3201/Lab5/Part2/simulation/modelsim
+vtest2
+!s110 1637966926
+!i10b 1
+!s100 zlMOX8gNDFg]S5;B8?TZ?0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IffN0eE<MVV4mdEPb627>c2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1637961055
+8C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2.v
+FC:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2.v
+!i122 1
+L0 1 26
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1637966926.000000
+!s107 C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2.v|
+!s90 -reportprogress|300|-work|work|C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vtest2_tb
+!s110 1637969226
+!i10b 1
+!s100 IFGh;Zn1[f]V=5<UjlMBl2
+R1
+IziaS>5JVHGanA2a2SG7=J3
+R2
+R0
+w1637969221
+8C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v
+FC:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v
+!i122 19
+L0 9 62
+R3
+r1
+!s85 0
+31
+!s108 1637969226.000000
+!s107 C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v|
+!i113 1
+R4
+R5

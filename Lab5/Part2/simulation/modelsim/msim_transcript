@@ -1,0 +1,517 @@
+# Reading pref.tcl
+# do Lab5Part2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/2ndInstall/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/randy/Documents/School/EECS3201/Lab5/Part2 {C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:48:19 on Nov 26,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/randy/Documents/School/EECS3201/Lab5/Part2" C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2.v 
+# -- Compiling module test2
+# 
+# Top level modules:
+# 	test2
+# End time: 17:48:19 on Nov 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# Load canceled
+vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:48:46 on Nov 26,2021
+# vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2.v 
+# -- Compiling module test2
+# 
+# Top level modules:
+# 	test2
+# End time: 17:48:46 on Nov 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:48:46 on Nov 26,2021
+# vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v 
+# -- Compiling module test2_tb
+# 
+# Top level modules:
+# 	test2_tb
+# End time: 17:48:46 on Nov 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.test2_tb
+# vsim work.test2_tb 
+# Start time: 17:49:07 on Nov 26,2021
+# Loading work.test2_tb
+# Loading work.test2
+add wave sim:/test2_tb/*
+run
+vlog -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:50:38 on Nov 26,2021
+# vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v 
+# -- Compiling module test2_tb
+# 
+# Top level modules:
+# 	test2_tb
+# End time: 17:50:38 on Nov 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.test2_tb
+# End time: 17:50:41 on Nov 26,2021, Elapsed time: 0:01:34
+# Errors: 0, Warnings: 0
+# vsim work.test2_tb 
+# Start time: 17:50:41 on Nov 26,2021
+# Loading work.test2_tb
+# Loading work.test2
+add wave sim:/test2_tb/*
+run
+vlog -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:55:05 on Nov 26,2021
+# vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v 
+# -- Compiling module test2_tb
+# 
+# Top level modules:
+# 	test2_tb
+# End time: 17:55:05 on Nov 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.test2_tb
+# End time: 17:55:09 on Nov 26,2021, Elapsed time: 0:04:28
+# Errors: 0, Warnings: 0
+# vsim work.test2_tb 
+# Start time: 17:55:09 on Nov 26,2021
+# Loading work.test2_tb
+# Loading work.test2
+add wave sim:/test2_tb/*
+run
+# All outputs are zero 1
+vlog -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:59:15 on Nov 26,2021
+# vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v 
+# -- Compiling module test2_tb
+# ** Error: C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v(39): (vlog-2110) Illegal reference to memory "test".
+# ** Error: C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v(39): Illegal LHS of assignment.
+# ** Error: C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v(39): (vlog-2110) Illegal reference to memory "test".
+# ** Error: C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v(39): (vlog-2990) Illegal operation on unpacked type.
+# End time: 17:59:15 on Nov 26,2021, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# C:/intelFPGA/2ndInstall/20.1/modelsim_ase/win32aloem/vlog failed.
+vlog -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:59:37 on Nov 26,2021
+# vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v 
+# -- Compiling module test2_tb
+# ** Error: C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v(39): (vlog-2110) Illegal reference to memory "tester".
+# ** Error: C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v(39): Illegal LHS of assignment.
+# ** Error: C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v(39): (vlog-2110) Illegal reference to memory "tester".
+# ** Error: C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v(39): (vlog-2990) Illegal operation on unpacked type.
+# End time: 17:59:37 on Nov 26,2021, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# C:/intelFPGA/2ndInstall/20.1/modelsim_ase/win32aloem/vlog failed.
+vlog -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:59:57 on Nov 26,2021
+# vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v 
+# -- Compiling module test2_tb
+# 
+# Top level modules:
+# 	test2_tb
+# End time: 17:59:57 on Nov 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.test2_tb
+# End time: 18:00:02 on Nov 26,2021, Elapsed time: 0:04:53
+# Errors: 0, Warnings: 0
+# vsim work.test2_tb 
+# Start time: 18:00:02 on Nov 26,2021
+# Loading work.test2_tb
+# Loading work.test2
+run
+add wave sim:/test2_tb/*
+restart
+run
+vlog -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:00:48 on Nov 26,2021
+# vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v 
+# -- Compiling module test2_tb
+# 
+# Top level modules:
+# 	test2_tb
+# End time: 18:00:48 on Nov 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.test2_tb
+# End time: 18:00:50 on Nov 26,2021, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 0
+# vsim work.test2_tb 
+# Start time: 18:00:50 on Nov 26,2021
+# Loading work.test2_tb
+# Loading work.test2
+vsim work.test2_tb
+# End time: 18:00:58 on Nov 26,2021, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 0
+# vsim work.test2_tb 
+# Start time: 18:00:58 on Nov 26,2021
+# Loading work.test2_tb
+# Loading work.test2
+add wave sim:/test2_tb/*
+run
+vlog -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:01:28 on Nov 26,2021
+# vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v 
+# -- Compiling module test2_tb
+# 
+# Top level modules:
+# 	test2_tb
+# End time: 18:01:28 on Nov 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.test2_tb
+# End time: 18:01:31 on Nov 26,2021, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 0
+# vsim work.test2_tb 
+# Start time: 18:01:31 on Nov 26,2021
+# Loading work.test2_tb
+# Loading work.test2
+add wave sim:/test2_tb/*
+run
+# All outputs are zero 1
+# All outputs are zero 2
+# All outputs are zero 3
+# All outputs are zero 4
+# All outputs are zero 4
+vlog -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:04:13 on Nov 26,2021
+# vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v 
+# -- Compiling module test2_tb
+# 
+# Top level modules:
+# 	test2_tb
+# End time: 18:04:13 on Nov 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.test2_tb
+# End time: 18:04:16 on Nov 26,2021, Elapsed time: 0:02:45
+# Errors: 0, Warnings: 0
+# vsim work.test2_tb 
+# Start time: 18:04:16 on Nov 26,2021
+# Loading work.test2_tb
+# Loading work.test2
+add wave sim:/test2_tb/*
+run
+# All outputs are zero 1
+# All outputs are zero 2
+# All outputs are zero 3
+# All outputs are zero 4
+# All outputs are zero 4
+vlog -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:07:12 on Nov 26,2021
+# vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v 
+# -- Compiling module test2_tb
+# 
+# Top level modules:
+# 	test2_tb
+# End time: 18:07:12 on Nov 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.test2_tb
+# End time: 18:07:16 on Nov 26,2021, Elapsed time: 0:03:00
+# Errors: 0, Warnings: 0
+# vsim work.test2_tb 
+# Start time: 18:07:16 on Nov 26,2021
+# Loading work.test2_tb
+# Loading work.test2
+add wave sim:/test2_tb/*
+run
+# All outputs are zero 1
+# All outputs are zero 1
+# All outputs are zero 2
+# All outputs are zero 4
+vlog -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:08:41 on Nov 26,2021
+# vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v 
+# -- Compiling module test2_tb
+# ** Error: (vlog-13069) C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v(41): near "=": syntax error, unexpected '=', expecting ++ or --.
+# ** Error: (vlog-13069) C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v(50): near "<=": syntax error, unexpected <=.
+# ** Error: C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v(50): (vlog-13205) Syntax error found in the scope following 'a'. Is there a missing '::'?
+# End time: 18:08:41 on Nov 26,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# C:/intelFPGA/2ndInstall/20.1/modelsim_ase/win32aloem/vlog failed.
+vlog -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:09:06 on Nov 26,2021
+# vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v 
+# -- Compiling module test2_tb
+# 
+# Top level modules:
+# 	test2_tb
+# End time: 18:09:06 on Nov 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.test2_tb
+# End time: 18:09:10 on Nov 26,2021, Elapsed time: 0:01:54
+# Errors: 0, Warnings: 0
+# vsim work.test2_tb 
+# Start time: 18:09:10 on Nov 26,2021
+# Loading work.test2_tb
+# Loading work.test2
+add wave sim:/test2_tb/*
+run
+# All outputs are zero 1
+# All outputs are zero 1
+# All outputs are zero 2
+# All outputs are zero 4
+vlog -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:11:53 on Nov 26,2021
+# vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v 
+# -- Compiling module test2_tb
+# 
+# Top level modules:
+# 	test2_tb
+# End time: 18:11:54 on Nov 26,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.test2_tb
+# End time: 18:11:57 on Nov 26,2021, Elapsed time: 0:02:47
+# Errors: 0, Warnings: 0
+# vsim work.test2_tb 
+# Start time: 18:11:57 on Nov 26,2021
+# Loading work.test2_tb
+# Loading work.test2
+add wave sim:/test2_tb/*
+run
+# All outputs are zero 1
+# All outputs are zero 1
+# All outputs are zero 2
+# All outputs are zero 4
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+vlog -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:16:31 on Nov 26,2021
+# vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v 
+# -- Compiling module test2_tb
+# 
+# Top level modules:
+# 	test2_tb
+# End time: 18:16:31 on Nov 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.test2_tb
+# End time: 18:16:34 on Nov 26,2021, Elapsed time: 0:04:37
+# Errors: 0, Warnings: 0
+# vsim work.test2_tb 
+# Start time: 18:16:34 on Nov 26,2021
+# Loading work.test2_tb
+# Loading work.test2
+vsim work.test2_tb
+# End time: 18:16:39 on Nov 26,2021, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 0
+# vsim work.test2_tb 
+# Start time: 18:16:39 on Nov 26,2021
+# Loading work.test2_tb
+# Loading work.test2
+add wave sim:/test2_tb/*
+run
+# STATEMENT 1 :: time is 0
+# STATEMENT 1 :: time is 40000
+# All outputs are zero 2
+# All outputs are zero 4
+vlog -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:18:20 on Nov 26,2021
+# vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v 
+# -- Compiling module test2_tb
+# 
+# Top level modules:
+# 	test2_tb
+# End time: 18:18:20 on Nov 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.test2_tb
+# End time: 18:18:29 on Nov 26,2021, Elapsed time: 0:01:50
+# Errors: 0, Warnings: 0
+# vsim work.test2_tb 
+# Start time: 18:18:29 on Nov 26,2021
+# Loading work.test2_tb
+# Loading work.test2
+add wave sim:/test2_tb/*
+run
+# STATEMENT 1 :: time is 0
+# STATEMENT 1 :: time is 0
+# All outputs are zero 2
+# All outputs are zero 4
+vlog -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:19:41 on Nov 26,2021
+# vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v 
+# -- Compiling module test2_tb
+# 
+# Top level modules:
+# 	test2_tb
+# End time: 18:19:42 on Nov 26,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.test2_tb
+# End time: 18:19:44 on Nov 26,2021, Elapsed time: 0:01:15
+# Errors: 0, Warnings: 0
+# vsim work.test2_tb 
+# Start time: 18:19:44 on Nov 26,2021
+# Loading work.test2_tb
+# Loading work.test2
+add wave sim:/test2_tb/*
+run
+# STATEMENT 1 :: time is 0ns
+# STATEMENT 1 :: time is 40000ns
+# All outputs are zero 2
+# All outputs are zero 4
+vlog -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:23:53 on Nov 26,2021
+# vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v 
+# -- Compiling module test2_tb
+# 
+# Top level modules:
+# 	test2_tb
+# End time: 18:23:53 on Nov 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.test2_tb
+# End time: 18:23:57 on Nov 26,2021, Elapsed time: 0:04:13
+# Errors: 0, Warnings: 0
+# vsim work.test2_tb 
+# Start time: 18:23:57 on Nov 26,2021
+# Loading work.test2_tb
+# Loading work.test2
+add wave sim:/test2_tb/*
+restart
+run
+# All outputs are zero at time: 0 ps
+restart
+run
+# All outputs are zero at time: 0 ps
+# All outputs are zero at time: 0 ps
+# All outputs are zero 2
+# All outputs are zero 4
+vlog -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:24:50 on Nov 26,2021
+# vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v 
+# -- Compiling module test2_tb
+# 
+# Top level modules:
+# 	test2_tb
+# End time: 18:24:50 on Nov 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.test2_tb
+# End time: 18:24:52 on Nov 26,2021, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 0
+# vsim work.test2_tb 
+# Start time: 18:24:53 on Nov 26,2021
+# Loading work.test2_tb
+# Loading work.test2
+vsim work.test2_tb
+# End time: 18:24:58 on Nov 26,2021, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 0
+# vsim work.test2_tb 
+# Start time: 18:24:58 on Nov 26,2021
+# Loading work.test2_tb
+# Loading work.test2
+add wave sim:/test2_tb/*
+run
+# All outputs are zero at time: 0 ps
+# All outputs are zero at time: 4000 ps
+# All outputs are zero 2
+# All outputs are zero 4
+vlog -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:25:36 on Nov 26,2021
+# vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v 
+# -- Compiling module test2_tb
+# 
+# Top level modules:
+# 	test2_tb
+# End time: 18:25:37 on Nov 26,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.test2_tb
+# End time: 18:25:40 on Nov 26,2021, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 0
+# vsim work.test2_tb 
+# Start time: 18:25:40 on Nov 26,2021
+# Loading work.test2_tb
+# Loading work.test2
+add wave sim:/test2_tb/*
+run
+# All outputs are zero at time: 0 ps
+# All outputs are zero at time: 0 ps
+# All outputs are zero 2
+# All outputs are zero 4
+vlog -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:26:04 on Nov 26,2021
+# vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v 
+# -- Compiling module test2_tb
+# 
+# Top level modules:
+# 	test2_tb
+# End time: 18:26:04 on Nov 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.test2_tb
+# End time: 18:26:07 on Nov 26,2021, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 0
+# vsim work.test2_tb 
+# Start time: 18:26:07 on Nov 26,2021
+# Loading work.test2_tb
+# Loading work.test2
+vsim work.test2_tb
+# End time: 18:26:14 on Nov 26,2021, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 0
+# vsim work.test2_tb 
+# Start time: 18:26:14 on Nov 26,2021
+# Loading work.test2_tb
+# Loading work.test2
+add wave sim:/test2_tb/*
+run
+# All outputs are zero at time: 0 ps
+# All outputs are zero at time: 0 ps
+# All outputs are zero 2
+# All outputs are zero 4
+vlog -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:27:06 on Nov 26,2021
+# vlog -reportprogress 300 -work work C:/Users/randy/Documents/School/EECS3201/Lab5/Part2/test2_tb.v 
+# -- Compiling module test2_tb
+# 
+# Top level modules:
+# 	test2_tb
+# End time: 18:27:06 on Nov 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.test2_tb
+# End time: 18:27:08 on Nov 26,2021, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 0
+# vsim work.test2_tb 
+# Start time: 18:27:08 on Nov 26,2021
+# Loading work.test2_tb
+# Loading work.test2
+add wave sim:/test2_tb/*
+run
+# All outputs are zero at time: 0 ps
+# All outputs are zero at time: 40000 ps
+# All outputs are zero at time: 240000 ps
+# All outputs are zero at time: 440000 ps
+vsim work.test2_tb
+# End time: 18:28:14 on Nov 26,2021, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 0
+# vsim work.test2_tb 
+# Start time: 18:28:14 on Nov 26,2021
+# Loading work.test2_tb
+# Loading work.test2
+add wave sim:/test2_tb/*
+run
+# All outputs are zero at time: 0 ps
+# All outputs are zero at time: 40000 ps
+# All outputs are zero at time: 240000 ps
+# All outputs are zero at time: 440000 ps
+# End time: 18:29:53 on Nov 26,2021, Elapsed time: 0:01:39
+# Errors: 0, Warnings: 0

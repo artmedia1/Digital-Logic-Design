@@ -1,0 +1,225 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "oneSec[0]",
+					"strict" : false
+				},
+				{
+					"name" : "oneSec[1]",
+					"strict" : false
+				},
+				{
+					"name" : "oneSec[2]",
+					"strict" : false
+				},
+				{
+					"name" : "oneSec[3]",
+					"strict" : false
+				},
+				{
+					"name" : "oneSec[4]",
+					"strict" : false
+				},
+				{
+					"name" : "oneSec[5]",
+					"strict" : false
+				},
+				{
+					"name" : "oneSec[6]",
+					"strict" : false
+				},
+				{
+					"name" : "tenSec[0]",
+					"strict" : false
+				},
+				{
+					"name" : "tenSec[1]",
+					"strict" : false
+				},
+				{
+					"name" : "tenSec[2]",
+					"strict" : false
+				},
+				{
+					"name" : "tenSec[3]",
+					"strict" : false
+				},
+				{
+					"name" : "tenSec[4]",
+					"strict" : false
+				},
+				{
+					"name" : "tenSec[5]",
+					"strict" : false
+				},
+				{
+					"name" : "tenSec[6]",
+					"strict" : false
+				},
+				{
+					"name" : "oneMin[0]",
+					"strict" : false
+				},
+				{
+					"name" : "oneMin[1]",
+					"strict" : false
+				},
+				{
+					"name" : "oneMin[2]",
+					"strict" : false
+				},
+				{
+					"name" : "oneMin[3]",
+					"strict" : false
+				},
+				{
+					"name" : "oneMin[4]",
+					"strict" : false
+				},
+				{
+					"name" : "oneMin[5]",
+					"strict" : false
+				},
+				{
+					"name" : "oneMin[6]",
+					"strict" : false
+				},
+				{
+					"name" : "tenMin[0]",
+					"strict" : false
+				},
+				{
+					"name" : "tenMin[1]",
+					"strict" : false
+				},
+				{
+					"name" : "tenMin[2]",
+					"strict" : false
+				},
+				{
+					"name" : "tenMin[3]",
+					"strict" : false
+				},
+				{
+					"name" : "tenMin[4]",
+					"strict" : false
+				},
+				{
+					"name" : "tenMin[5]",
+					"strict" : false
+				},
+				{
+					"name" : "tenMin[6]",
+					"strict" : false
+				},
+				{
+					"name" : "oneCounter[0]",
+					"strict" : false
+				},
+				{
+					"name" : "oneCounter[1]",
+					"strict" : false
+				},
+				{
+					"name" : "oneCounter[2]",
+					"strict" : false
+				},
+				{
+					"name" : "oneCounter[3]",
+					"strict" : false
+				},
+				{
+					"name" : "oneCounter[4]",
+					"strict" : false
+				},
+				{
+					"name" : "oneCounter[5]",
+					"strict" : false
+				},
+				{
+					"name" : "oneCounter[6]",
+					"strict" : false
+				},
+				{
+					"name" : "tenCounter[0]",
+					"strict" : false
+				},
+				{
+					"name" : "tenCounter[1]",
+					"strict" : false
+				},
+				{
+					"name" : "tenCounter[2]",
+					"strict" : false
+				},
+				{
+					"name" : "tenCounter[3]",
+					"strict" : false
+				},
+				{
+					"name" : "tenCounter[4]",
+					"strict" : false
+				},
+				{
+					"name" : "tenCounter[5]",
+					"strict" : false
+				},
+				{
+					"name" : "tenCounter[6]",
+					"strict" : false
+				},
+				{
+					"name" : "cin",
+					"strict" : false
+				},
+				{
+					"name" : "setOrStartClock",
+					"strict" : false
+				},
+				{
+					"name" : "increaseOrDecrease",
+					"strict" : false
+				},
+				{
+					"name" : "setCounter[2]",
+					"strict" : false
+				},
+				{
+					"name" : "setCounter[3]",
+					"strict" : false
+				},
+				{
+					"name" : "setCounter[4]",
+					"strict" : false
+				},
+				{
+					"name" : "setCounter[5]",
+					"strict" : false
+				},
+				{
+					"name" : "setCounter[0]",
+					"strict" : false
+				},
+				{
+					"name" : "setCounter[1]",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "counterOrClockControl",
+					"strict" : false
+				},
+				{
+					"name" : "pause",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

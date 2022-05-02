@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at Project.v(33): always construct contains both blocking and non-blocking assignments File: C:/Users/randy/Documents/School/EECS3201/Project/Project.v Line: 33
+Info (10281): Verilog HDL Declaration information at Project.v(3): object "reset" differs only in case from object "Reset" in the same scope File: C:/Users/randy/Documents/School/EECS3201/Project/Project.v Line: 3
